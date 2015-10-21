@@ -1,0 +1,499 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  color: #525d7d;
+  font-weight: 600;
+  line-height: 1.7em;
+}
+.lieju-content {
+  width: 900px;
+  margin: 0 auto;
+}
+.lieju-content h3 {
+  font-size: 36px;
+  margin: 60px auto;
+  text-align: center;
+}
+.lieju-content .apply {
+  background-color: #FF8866;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.lieju-content a:hover {
+  opacity: 0.8;
+}
+.lieju-banner {
+  background: url("../images/header_pic.png") center center no-repeat;
+  background-size: cover;
+  height: 606px;
+  margin-top: 0;
+}
+.lieju-banner a {
+  text-decoration: none;
+  color: #fff;
+}
+.lieju-banner nav {
+  margin: 0 30px;
+}
+.lieju-banner nav .logo {
+  padding-top: 30px;
+}
+.lieju-banner nav ul {
+  float: right;
+  padding-top: 40px;
+  display: inline-block;
+}
+.lieju-banner nav li {
+  float: left;
+  list-style: none;
+  margin-right: 57px;
+  color: #fff;
+}
+.lieju-banner article {
+  font-size: 24px;
+  margin: 220px 30px 0 30px;
+  color: #fff;
+}
+.lieju-banner article span {
+  color: #FF8866;
+}
+.lieju-banner article p {
+  font-weight: 400;
+  margin: 8px 0 46px 0;
+}
+.lieju-item {
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+  display: block;
+  overflow: auto;
+}
+.lieju-item h4 {
+  margin: 30px auto 15px auto;
+}
+.lieju-item h4 a {
+  text-decoration: none;
+  color: #FF8866;
+}
+.lieju-item article {
+  float: left;
+  width: 200px;
+  text-align: center;
+  margin: 0 45px;
+  display: inline-block;
+}
+.lieju-item article img {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.lieju-item article a:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.lieju-assistant {
+  background-color: #545b6a;
+  display: block;
+  overflow: auto;
+}
+.lieju-assistant .left {
+  float: left;
+  margin: 48px auto -7px auto;
+  overflow: hidden;
+}
+.lieju-assistant .right {
+  text-align: left;
+  padding-top: 100px;
+  margin-left: 510px;
+  line-height: 1.7em;
+  color: #fff;
+}
+.lieju-assistant .right h3 {
+  text-align: left;
+  color: #FF8866;
+}
+.lieju-financing {
+  text-align: center;
+  background-color: #fff;
+}
+.lieju-financing .quotes {
+  margin: 60px 0;
+}
+.lieju-financing p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.lieju-financing .apply {
+  margin: 70px 0;
+  display: inline-block;
+}
+.lieju-waiting {
+  background-color: #f4f4f4;
+  font-weight: 400;
+  text-align: center;
+}
+.lieju-waiting .lieju-content {
+  background: url("../images/waiting_parachute.svg") 348px no-repeat;
+  padding: 60px;
+}
+.lieju-waiting p {
+  margin-left: 100px;
+  text-align: center;
+}
+footer {
+  background-color: #2d3237;
+  color: #fff;
+  font-weight: 400;
+  padding: 1px;
+  text-align: center;
+}
+@media (max-width: 900px) and (min-width: 570px) {
+  .lieju-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .lieju-content h3 {
+    font-size: 1.7em;
+    margin: 60px auto;
+    text-align: center;
+  }
+  .lieju-content .apply {
+    background-color: #FF8866;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 30px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .lieju-content a:hover {
+    opacity: 0.8;
+  }
+  .lieju-banner {
+    background: url("../images/header_pic.png") center center no-repeat;
+    background-size: cover;
+    height: 606px;
+    margin-top: 0;
+  }
+  .lieju-banner a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .lieju-banner nav {
+    margin: 0;
+  }
+  .lieju-banner nav .logo {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 17%;
+  }
+  .lieju-banner nav ul {
+    float: right;
+    padding-top: 40px;
+    display: inline-block;
+  }
+  .lieju-banner nav li {
+    float: left;
+    list-style: none;
+    margin-right: 57px;
+    color: #fff;
+  }
+  .lieju-banner nav li:last-child {
+    margin-right: 20px;
+  }
+  .lieju-banner article {
+    font-size: 1.1em;
+    margin: 220px 30px 0 30px;
+    color: #fff;
+  }
+  .lieju-banner article img {
+    width: 40%;
+  }
+  .lieju-banner article p {
+    font-weight: 400;
+    margin: 8px 0 46px 0;
+  }
+  .lieju-item {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+    display: block;
+    overflow: auto;
+  }
+  .lieju-item h4 {
+    margin: 30px auto 15px auto;
+  }
+  .lieju-item h4 a {
+    text-decoration: none;
+    color: #FF8866;
+  }
+  .lieju-item article {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 0 6%;
+    display: inline-block;
+  }
+  .lieju-item article img {
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+  }
+  .lieju-item article a:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .lieju-assistant {
+    background-color: #545b6a;
+    display: block;
+    overflow: auto;
+  }
+  .lieju-assistant .left {
+    float: left;
+    margin: 48px -108px -7px auto;
+    overflow: hidden;
+  }
+  .lieju-assistant .left img {
+    width: 60%;
+  }
+  .lieju-assistant .right {
+    text-align: left;
+    padding-top: 100px;
+    margin-left: -90px;
+    line-height: 1.2em;
+    color: #fff;
+  }
+  .lieju-assistant .right h3 {
+    text-align: left;
+    color: #FF8866;
+  }
+  .lieju-financing {
+    text-align: center;
+    background-color: #fff;
+  }
+  .lieju-financing .quotes {
+    margin: 60px 0;
+  }
+  .lieju-financing p {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .lieju-financing .apply {
+    margin: 70px 0;
+    display: inline-block;
+  }
+  .lieju-waiting {
+    background-color: #f4f4f4;
+    font-weight: 400;
+    text-align: center;
+  }
+  .lieju-waiting .lieju-content {
+    background: url("../images/waiting_parachute.svg") 30% no-repeat;
+    padding: 60px 30px;
+  }
+  .lieju-waiting p {
+    margin-left: 100px;
+    text-align: center;
+  }
+  footer {
+    background-color: #2d3237;
+    color: #fff;
+    font-weight: 400;
+    padding: 1px;
+    text-align: center;
+  }
+}
+@media (max-width: 570px) {
+  .lieju-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .lieju-content h3 {
+    font-size: 1.7em;
+    margin: 60px auto;
+    text-align: center;
+  }
+  .lieju-content .apply {
+    background-color: #FF8866;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 30px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .lieju-content a:hover {
+    opacity: 0.8;
+  }
+  .lieju-banner {
+    background: url("../images/header_pic.png") center center no-repeat;
+    background-size: cover;
+    height: 606px;
+    margin-top: 0;
+  }
+  .lieju-banner .lieju-content {
+    width: 100%;
+  }
+  .lieju-banner a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .lieju-banner nav {
+    margin: 0;
+  }
+  .lieju-banner nav .logo {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 74px;
+  }
+  .lieju-banner nav ul {
+    width: 100%;
+    padding: 6px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #525a73);
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #525a73);
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), #525a73);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0), #525a73);
+  }
+  .lieju-banner nav li {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    color: #fff;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+  }
+  .lieju-banner nav li:first-child {
+    margin: 0;
+  }
+  .lieju-banner article {
+    font-size: 1.1em;
+    margin: 200px 30px 0 30px;
+    color: #fff;
+  }
+  .lieju-banner article img {
+    width: 130px;
+  }
+  .lieju-banner article p {
+    font-weight: 400;
+    margin: 8px 0 46px 0;
+  }
+  .lieju-item {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+    display: block;
+    overflow: auto;
+  }
+  .lieju-item h3 {
+    margin: 20px auto;
+  }
+  .lieju-item h4 {
+    margin: 30px auto 15px auto;
+  }
+  .lieju-item h4 a {
+    text-decoration: none;
+    color: #FF8866;
+  }
+  .lieju-item article {
+    width: 80%;
+    text-align: left;
+    margin: 0 6%;
+    display: inline-block;
+  }
+  .lieju-item article img {
+    float: left;
+    margin: 30px 20px 62px 0;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+  }
+  .lieju-item article a:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .lieju-item p {
+    margin-bottom: 0;
+  }
+  .lieju-assistant {
+    background-color: #545b6a;
+    display: block;
+    overflow: hidden;
+  }
+  .lieju-assistant .left {
+    text-align: center;
+  }
+  .lieju-assistant .left img {
+    width: 60%;
+  }
+  .lieju-assistant .right {
+    float: left;
+    padding-top: 0;
+    margin-left: 0;
+    line-height: 1.2em;
+    color: #fff;
+  }
+  .lieju-assistant .right h3 {
+    color: #FF8866;
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+  .lieju-assistant .right p {
+    text-align: center;
+  }
+  .lieju-financing {
+    text-align: center;
+    background-color: #fff;
+  }
+  .lieju-financing .quotes {
+    margin: 60px 0;
+  }
+  .lieju-financing p {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  .lieju-financing .apply {
+    margin: 70px 0;
+    display: inline-block;
+  }
+  .lieju-waiting {
+    background-color: #f4f4f4;
+    font-weight: 400;
+    text-align: center;
+  }
+  .lieju-waiting .lieju-content {
+    background: url("../images/waiting_parachute.svg") 22% no-repeat;
+    padding: 60px 20px;
+  }
+  .lieju-waiting p {
+    margin-left: 100px;
+    text-align: center;
+  }
+  footer {
+    background-color: #2d3237;
+    color: #fff;
+    font-weight: 400;
+    padding: 1px;
+    text-align: center;
+  }
+}
